@@ -15,7 +15,7 @@ def corona():
     for table in html_tables:
         paragraphs = paragraphs + str(table)
     return paragraphs
-git init
+
 
 if __name__ == "__main__":
     app.run(debug=True, host="localhost")
